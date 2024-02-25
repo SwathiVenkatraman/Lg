@@ -1,8 +1,8 @@
 import React from 'react'
-import './Lg.css'
+import './Login.css'
 import { Link } from 'react-router-dom'
 
-const Lg = () => {
+const Login = () => {
 
   function handle(e){
     e.preventDefault()
@@ -36,4 +36,4 @@ const Lg = () => {
   )
 }
 
-export default Lg
+export default Login
